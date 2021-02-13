@@ -2,7 +2,7 @@ FROM node:current-alpine
 
 LABEL org.opencontainers.image.title = "Morley Learning Docker"
 
-RUN mkdir -p /user/src/app
+RUN mkdir /user/src/app
 
 COPY . /usr/src/app
 
